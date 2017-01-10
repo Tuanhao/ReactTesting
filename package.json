@@ -20,7 +20,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "webpack webpack.config.js",
+    "dev": "webpack-dev-server --content-base ReactTesting/",
+    "build": "webpack -dev-server --watch --progress --colors --display-error-details",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
